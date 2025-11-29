@@ -1,0 +1,35 @@
+[
+  {
+    "origin": "Bengaluru",
+    "destination": "Delhi",
+    "date": "2025-12-05",
+    "airline": "IndiGo",
+    "flightNumber": "6E-213",
+    "departTime": "08:15",
+    "arriveTime": "11:10",
+    "duration": "2h 55m",
+    "priceINR": 5850
+  },
+  {
+    "origin": "Bengaluru",
+    "destination": "Delhi",
+    "date": "2025-12-05",
+    "airline": "Air India",
+    "flightNumber": "AI-503",
+    "departTime": "13:30",
+    "arriveTime": "16:25",
+    "duration": "2h 55m",
+    "priceINR": 6420
+  },
+  {
+    "origin": "Bengaluru",
+    "destination": "Delhi",
+    "date": "2025-12-06",
+    "airline": "Vistara",
+    "flightNumber": "UK-820",
+    "departTime": "07:40",
+    "arriveTime": "10:35",
+    "duration": "2h 55m",
+    "priceINR": 6999
+  }
+]
