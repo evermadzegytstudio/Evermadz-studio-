@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Travel Booking Voice Assistant</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Travel Booking Voice Assistant</h1>
+    <p>Say: “Book me a flight to Delhi next Friday.”</p>
+  </header>
+
+  <main>
+    <section class="controls">
+      <button id="startBtn">🎙️ Speak</button>
+      <button id="stopBtn" disabled>⏹️ Stop</button>
+      <button id="clearBtn">🧹 Clear</button>
+    </section>
+
+    <section class="status">
+      <div><strong>Mic:</strong> <span id="micStatus">Idle</span></div>
+      <div><strong>NLU:</strong> <span id="nluStatus">Waiting</span></div>
+      <div><strong>Agent:</strong> <span id="agentStatus">Ready</span></div>
+    </section>
+
+    <section class="transcript">
+      <h2>Transcript</h2>
+      <div id="userText" class="bubble user"></div>
+      <div id="agentText" class="bubble agent"></div>
+    </section>
+
+    <section class="results">
+      <h2>Flight options</h2>
+      <div id="results"></div>
+    </section>
+
+    <section class="booking">
+      <h2>Booking</h2>
+      <div id="bookingStatus"></div>
+    </section>
+  </main>
+
+  <footer>
+    <small>Mock demo for interviews. No real bookings.</small>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
+
